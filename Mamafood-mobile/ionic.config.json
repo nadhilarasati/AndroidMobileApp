@@ -1,0 +1,7 @@
+{
+  "name": "Mamafood",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
