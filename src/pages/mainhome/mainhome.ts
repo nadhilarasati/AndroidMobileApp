@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, App, MenuController, Nav } from 'ionic-angular';
+import { OrdermenuPage } from '../ordermenu/ordermenu';
 
 
 /**
@@ -15,9 +16,12 @@ import { IonicPage, NavController, NavParams, App, MenuController, Nav } from 'i
   templateUrl: 'mainhome.html',
 })
 export class MainhomePage {
+
+  orderButton: any;
   
   constructor(public navCtrl: NavController, public navParams: NavParams, app: App, menu: MenuController) {
     menu.enable(true);
+    this.orderButton= OrdermenuPage;
   }
 
 

@@ -1,14 +1,14 @@
 webpackJsonp([17],{
 
-/***/ 304:
+/***/ 310:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "KonfirmasiPageModule", function() { return KonfirmasiPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainhomePageModule", function() { return MainhomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__konfirmasi__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mainhome__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var KonfirmasiPageModule = /** @class */ (function () {
-    function KonfirmasiPageModule() {
+var MainhomePageModule = /** @class */ (function () {
+    function MainhomePageModule() {
     }
-    KonfirmasiPageModule = __decorate([
+    MainhomePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__konfirmasi__["a" /* KonfirmasiPage */],
+                __WEBPACK_IMPORTED_MODULE_2__mainhome__["a" /* MainhomePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__konfirmasi__["a" /* KonfirmasiPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__mainhome__["a" /* MainhomePage */]),
             ],
         })
-    ], KonfirmasiPageModule);
-    return KonfirmasiPageModule;
+    ], MainhomePageModule);
+    return MainhomePageModule;
 }());
 
-//# sourceMappingURL=konfirmasi.module.js.map
+//# sourceMappingURL=mainhome.module.js.map
 
 /***/ })
 

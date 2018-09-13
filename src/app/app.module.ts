@@ -33,6 +33,9 @@ import { BuypromoPage } from '../pages/buypromo/buypromo';
 import { BankaccPage } from '../pages/bankacc/bankacc';
 import { TransferPage } from '../pages/transfer/transfer';
 import { KonfirmasiPage } from '../pages/konfirmasi/konfirmasi';
+import { OrdermenuPage } from '../pages/ordermenu/ordermenu';
+import { ChooseMethodPage } from '../pages/choose-method/choose-method';
+import { ConfirmationPage } from '../pages/confirmation/confirmation';
 
 
 
@@ -66,7 +69,10 @@ import { KonfirmasiPage } from '../pages/konfirmasi/konfirmasi';
     BuypromoPage,
     BankaccPage,
     TransferPage,
-    KonfirmasiPage
+    KonfirmasiPage,
+    OrdermenuPage,
+    ChooseMethodPage,
+    ConfirmationPage
   ],
   imports: [
     BrowserModule,
@@ -106,7 +112,10 @@ import { KonfirmasiPage } from '../pages/konfirmasi/konfirmasi';
     BuypromoPage,
     BankaccPage,
     TransferPage,
-    KonfirmasiPage
+    KonfirmasiPage,
+    OrdermenuPage,
+    ChooseMethodPage,
+    ConfirmationPage
   ],
   providers: [
     StatusBar,
